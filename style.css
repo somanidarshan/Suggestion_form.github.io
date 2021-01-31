@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Potta One', cursive;
+}
+.container{
+    max-width: 80%;
+    padding:34px;
+    margin:auto;
+}
+.container h1,p{
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+p{
+    font-size: 17px;
+}
+input,textarea{
+    width: 80%;
+    margin:11px;
+    padding: 20px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    flex-direction: column;
+}
+btn{
+    background: purple;
+    padding: 8px 12px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.bj{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.submitMsg{
+    font-family: 'Potta One', cursive;
+    color:green;
+}
